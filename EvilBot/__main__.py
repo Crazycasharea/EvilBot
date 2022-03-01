@@ -70,16 +70,21 @@ PM_START_TEXT = """
 buttons = [
     [
         InlineKeyboardButton(
-            text="❤️ADD TO GROUP ", url="t.me/MISSYOUOFFICIALBOT?startgroup=true"),
+            text="ᴀᴅᴅ ᴛᴏ ɢʀᴏᴜᴘ", url="t.me/MissYouOfficialBot?startgroup=true"),
     ],
      [
-        InlineKeyboardButton(text="❤️NEWS CHANNEL ❤️", url="t.me/MISSYOUNEWS"),
+        InlineKeyboardButton(text="ᴀʙᴏᴜᴛ💝💝", callback_data="evil_"),
         InlineKeyboardButton(
-            text="❤️MY MASTER❤️", url=f"t.me/om_varade"
+            text="ɪᴛs ᴍᴇ ❤️", url=f"t.me/MissYouOfficialBot"
         ),
      ],
-     [
-        InlineKeyboardButton(text="❤️HELP & COMMANDS❔", callback_data="help_back"),
+     [  
+        InlineKeyboardButton(text="💝ɴᴇᴡs ᴄʜᴀɴɴᴇʟ", url="https://t.me/EVIL_SUPPORT_CHAT"),
+        InlineKeyboardButton(text="ᴍʏ ᴍᴀsᴛᴇʀ", url="https://github.com/shrvan42/EvilBot"),
+    ], 
+
+    [
+        InlineKeyboardButton(text="ʜᴇʟᴘ💝", callback_data="help_back"),
     ],
 ]
 HELP_STRINGS = """
